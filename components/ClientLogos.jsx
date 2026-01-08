@@ -1,11 +1,10 @@
-
 import React from 'react';
 
 const clients = [
   'Modernize', 'Solstice', 'Aura Labs', 'Nova Core', 'Equinox', 'Vertex'
 ];
 
-const ClientLogos: React.FC = () => {
+const ClientLogos = () => {
   return (
     <section className="py-24 px-6 md:px-12 lg:px-24 border-t border-zinc-900 bg-black">
       <div className="max-w-6xl mx-auto">
