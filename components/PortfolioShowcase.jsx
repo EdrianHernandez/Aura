@@ -1,8 +1,6 @@
-
 import React from 'react';
-import { PortfolioItem } from '../types';
 
-const items: PortfolioItem[] = [
+const items = [
   { id: '1', title: 'Velvet Horizon', category: 'Branding', imageUrl: 'https://picsum.photos/800/1200?random=1', height: 'h-[500px]' },
   { id: '2', title: 'Neo-Form', category: 'UI/UX', imageUrl: 'https://picsum.photos/800/800?random=2', height: 'h-[400px]' },
   { id: '3', title: 'Stellar Motion', category: 'Animation', imageUrl: 'https://picsum.photos/800/1000?random=3', height: 'h-[600px]' },
@@ -11,7 +9,7 @@ const items: PortfolioItem[] = [
   { id: '6', title: 'Core Identity', category: 'Identity', imageUrl: 'https://picsum.photos/800/1300?random=6', height: 'h-[700px]' },
 ];
 
-const PortfolioShowcase: React.FC = () => {
+const PortfolioShowcase = () => {
   return (
     <section id="work" className="py-24 px-6 md:px-12 lg:px-24">
       <div className="mb-20">
