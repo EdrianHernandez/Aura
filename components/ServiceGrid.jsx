@@ -1,8 +1,6 @@
-
 import React from 'react';
-import { Service } from '../types';
 
-const services: Service[] = [
+const services = [
   {
     id: '01',
     title: 'Branding',
@@ -23,7 +21,7 @@ const services: Service[] = [
   }
 ];
 
-const ServiceGrid: React.FC = () => {
+const ServiceGrid = () => {
   return (
     <section id="services" className="py-24 px-6 md:px-12 lg:px-24 bg-zinc-950/50">
       <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
