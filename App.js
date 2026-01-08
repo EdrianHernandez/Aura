@@ -1,21 +1,20 @@
-
 import React from 'react';
 import Navbar from './components/Navbar';
 import AgencyHero from './components/AgencyHero';
-import ServiceGrid from './components/ServiceGrid';
-import PortfolioShowcase from './components/PortfolioShowcase';
 import ClientLogos from './components/ClientLogos';
+import PortfolioShowcase from './components/PortfolioShowcase';
+import ServiceGrid from './components/ServiceGrid';
 import Footer from './components/Footer';
 
-const App: React.FC = () => {
+const App = () => {
   return (
-    <div className="min-h-screen selection:bg-white selection:text-black">
+    <div className="bg-zinc-50 min-h-screen font-sans selection:bg-zinc-900 selection:text-white">
       <Navbar />
       <main>
         <AgencyHero />
-        <ServiceGrid />
-        <PortfolioShowcase />
         <ClientLogos />
+        <PortfolioShowcase />
+        <ServiceGrid />
       </main>
       <Footer />
     </div>
