@@ -1,7 +1,6 @@
-
 import React from 'react';
 
-const AgencyHero: React.FC = () => {
+const AgencyHero = () => {
   return (
     <section className="relative min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 pt-20">
       <div className="max-w-7xl">
