@@ -13,7 +13,7 @@ const AgencyHero = () => {
         </h1>
         <div className="flex flex-col md:flex-row md:items-center gap-12 mt-4">
           <button 
-            className="group relative inline-flex items-center justify-center px-10 py-5 bg-white text-black font-semibold text-lg overflow-hidden transition-all duration-300 hover:pr-14"
+            className="group relative inline-flex items-center justify-center px-2 py-1 bg-white text-black font-semibold text-lg overflow-hidden transition-all duration-300 hover:pr-14"
             onClick={() => document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' })}
           >
             <span className="relative z-10 uppercase tracking-wider">View Work</span>
@@ -34,7 +34,7 @@ const AgencyHero = () => {
       </div>
       
       {/* Visual Accent */}
-      <div className="absolute bottom-12 right-12 hidden lg:block">
+      <div className="absolute bottom-12 right-12 hidden lg:block z-0">
         <div className="animate-bounce">
           <svg className="w-8 h-8 text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 14l-7 7m0 0l-7-7m7 7V3" />

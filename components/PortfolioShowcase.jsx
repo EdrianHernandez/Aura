@@ -27,15 +27,15 @@ const PortfolioShowcase = () => {
                 className="w-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 ease-out transform group-hover:scale-110"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-                 <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center z-0">
+                 <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500 -z-10">
                     <span className="inline-block px-4 py-2 border border-white text-xs uppercase tracking-widest font-bold">View Case Study</span>
                  </div>
               </div>
             </div>
             <div className="mt-4 flex justify-between items-baseline">
-              <h5 className="text-xl font-medium tracking-tight">{item.title}</h5>
-              <span className="text-xs uppercase tracking-widest text-zinc-500 font-mono">{item.category}</span>
+              <h5 className="text-xs font-medium tracking-tight">{item.title}</h5>
+              <span className="text-xs uppercase tracking-widest text-zinc-900 font-mono">{item.category}</span>
             </div>
           </div>
         ))}

@@ -35,10 +35,10 @@ const ServiceGrid = () => {
         {services.map((service) => (
           <div 
             key={service.id} 
-            className="service-card group bg-black p-12 lg:p-16 flex flex-col transition-all duration-500 hover:bg-zinc-900"
+            className="service-card group bg-black p-0 lg:p-0 flex flex-col transition-all duration-500 hover:bg-zinc-900"
           >
             <span className="text-zinc-600 text-sm font-mono mb-8">{service.id}</span>
-            <div className="text-4xl mb-6 group-hover:scale-110 transition-transform duration-500 origin-left">
+            <div className="text-4xl mb-6 group-hover:scale-110 transition-transform duration-500 origin-left opacity-0">
               {service.icon}
             </div>
             <h4 className="text-2xl font-semibold mb-4">{service.title}</h4>
