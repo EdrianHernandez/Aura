@@ -1,0 +1,72 @@
+[
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-1.png",
+        "file_path": "components/AgencyHero.jsx",
+        "text_anchor": "The down arrow animation at the bottom right corner is hidden behind other content",
+        "positive_node": "<div className=\"absolute bottom-12 right-12 hidden lg:block z-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-2.png",
+        "file_path": "components/AgencyHero.jsx",
+        "text_anchor": "The 'View Work' button text is getting squished and cramped inside the button",
+        "positive_node": "<button className=\"group relative inline-flex items-center justify-center px-2 py-1 bg-white text-black font-semibold text-lg overflow-hidden transition-all duration-300 hover:pr-14\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-3.png",
+        "file_path": "components/Navbar.jsx",
+        "text_anchor": "The navigation menu items are stacking vertically on top of each other instead of being horizontal",
+        "positive_node": "<div className=\"max-w-7xl mx-auto flex flex-col justify-between items-end\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-4.png",
+        "file_path": "components/Navbar.jsx",
+        "text_anchor": "The 'AURA' title in the top left is too dark and hard to see against the dark background",
+        "positive_node": "<h1 className=\"text-zinc-900 text-2xl font-bold tracking-tighter\">AURA</h1>"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-5.png",
+        "file_path": "components/ServiceGrid.jsx",
+        "text_anchor": "The service cards have all their content squished against the edges with no margins",
+        "positive_node": "<div className=\"service-card group bg-black p-0 lg:p-0 flex flex-col transition-all duration-500 hover:bg-zinc-900\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-6.png",
+        "file_path": "components/ServiceGrid.jsx",
+        "text_anchor": "The icons in the service cards are completely invisible",
+        "positive_node": "<div className=\"text-4xl mb-6 group-hover:scale-110 transition-transform duration-500 origin-left opacity-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-7.png",
+        "file_path": "components/PortfolioShowcase.jsx",
+        "text_anchor": "When you hover over portfolio images, the case study button disappears behind the image",
+        "positive_node": "<div className=\"absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center z-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-8.png",
+        "file_path": "components/PortfolioShowcase.jsx",
+        "text_anchor": "The portfolio project titles are so tiny you can barely read them",
+        "positive_node": "<h5 className=\"text-xs font-medium tracking-tight\">{item.title}</h5>"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-9.png",
+        "file_path": "components/ClientLogos.jsx",
+        "text_anchor": "The client logos are all crammed together with no space between them",
+        "positive_node": "<div className=\"grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-0 items-center opacity-40 hover:opacity-100 transition-opacity duration-700\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-10.png",
+        "file_path": "components/Footer.jsx",
+        "text_anchor": "The footer content is cramped and broken into too many columns with barely any space",
+        "positive_node": "<div className=\"grid grid-cols-1 lg:grid-cols-4 gap-2 mb-32\">"
+    }
+]

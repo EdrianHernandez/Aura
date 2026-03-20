@@ -1,0 +1,122 @@
+[
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "file_path": "components/AgencyHero.jsx",
+        "image_anchor": "Aura_bug-1.png",
+        "text_anchors": [
+            "The down arrow animation at the bottom right corner is hidden behind other content",
+            "Z-index set to 0 causing absolute positioned element to appear layered behind other content elements",
+            "The scroll indicator arrow is not visible where it should be positioned at the bottom right"
+        ],
+        "positive_node": "<div className=\"absolute bottom-12 right-12 hidden lg:block z-0\">",
+        "playwright_selector": "section.relative > div.absolute.bottom-12.right-12"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "file_path": "components/AgencyHero.jsx",
+        "image_anchor": "Aura_bug-2.png",
+        "text_anchors": [
+            "The 'View Work' button text is getting squished and cramped inside the button",
+            "Horizontal padding reduced from 40px to 8px causes text compression and improper spacing within button",
+            "Make the button have more breathing room around the text inside it"
+        ],
+        "positive_node": "<button className=\"group relative inline-flex items-center justify-center px-2 py-1 bg-white text-black font-semibold text-lg overflow-hidden transition-all duration-300 hover:pr-14\">",
+        "playwright_selector": "button.group.relative.inline-flex"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "file_path": "components/Navbar.jsx",
+        "image_anchor": "Aura_bug-3.png",
+        "text_anchors": [
+            "The navigation menu items are stacking vertically on top of each other instead of being horizontal",
+            "Flexbox direction changed to column causing navbar items to stack vertically instead of horizontal row layout",
+            "Fix the navigation layout so the menu links appear in a horizontal line next to the logo"
+        ],
+        "positive_node": "<div className=\"max-w-7xl mx-auto flex flex-col justify-between items-end\">",
+        "playwright_selector": "nav div.max-w-7xl.mx-auto"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "file_path": "components/Navbar.jsx",
+        "image_anchor": "Aura_bug-4.png",
+        "text_anchors": [
+            "The 'AURA' title in the top left is too dark and hard to see against the dark background",
+            "Text color changed to zinc-900 (dark gray) reducing contrast ratio against dark background, causing readability issues",
+            "The logo text needs to be lighter so it's visible against the background"
+        ],
+        "positive_node": "<h1 className=\"text-zinc-900 text-2xl font-bold tracking-tighter\">AURA</h1>",
+        "playwright_selector": "nav h1"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "file_path": "components/ServiceGrid.jsx",
+        "image_anchor": "Aura_bug-5.png",
+        "text_anchors": [
+            "The service cards have all their content squished against the edges with no margins",
+            "Padding property removed (p-0) causing card content to have no internal spacing and overlap with borders",
+            "Add proper padding around the text inside each service card"
+        ],
+        "positive_node": "<div className=\"service-card group bg-black p-0 lg:p-0 flex flex-col transition-all duration-500 hover:bg-zinc-900\">",
+        "playwright_selector": "div.service-card.group.bg-black"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "file_path": "components/ServiceGrid.jsx",
+        "image_anchor": "Aura_bug-6.png",
+        "text_anchors": [
+            "The icons in the service cards are completely invisible",
+            "Opacity set to 0 makes the icon elements imperceptible regardless of interaction state",
+            "The service card icons need to be visible at all times"
+        ],
+        "positive_node": "<div className=\"text-4xl mb-6 group-hover:scale-110 transition-transform duration-500 origin-left opacity-0\">",
+        "playwright_selector": "div.service-card div.text-4xl"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "file_path": "components/PortfolioShowcase.jsx",
+        "image_anchor": "Aura_bug-7.png",
+        "text_anchors": [
+            "When you hover over portfolio images, the case study button disappears behind the image",
+            "Overlay layer has z-index 0 with nested element z-index -10, causing hover content to render behind parent layer",
+            "The case study button should appear on top of the image overlay when hovering"
+        ],
+        "positive_node": "<div className=\"absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center z-0\">",
+        "playwright_selector": "div.masonry-item.group div.absolute.inset-0"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "file_path": "components/PortfolioShowcase.jsx",
+        "image_anchor": "Aura_bug-8.png",
+        "text_anchors": [
+            "The portfolio project titles are so tiny you can barely read them",
+            "Font size changed from text-xl (20px) to text-xs (12px) reducing readability and visual hierarchy",
+            "The project title text needs to be larger so it's readable"
+        ],
+        "positive_node": "<h5 className=\"text-xs font-medium tracking-tight\">{item.title}</h5>",
+        "playwright_selector": "div.masonry-item h5"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "file_path": "components/ClientLogos.jsx",
+        "image_anchor": "Aura_bug-9.png",
+        "text_anchors": [
+            "The client logos are all crammed together with no space between them",
+            "Gap property changed from 12 to 0 causes grid items to overlap and have zero spacing",
+            "Add space between the client logo items so they don't touch each other"
+        ],
+        "positive_node": "<div className=\"grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-0 items-center opacity-40 hover:opacity-100 transition-opacity duration-700\">",
+        "playwright_selector": "section[class*='border-t'] div.grid.grid-cols-2"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "file_path": "components/Footer.jsx",
+        "image_anchor": "Aura_bug-10.png",
+        "text_anchors": [
+            "The footer content is cramped and broken into too many columns with barely any space",
+            "Grid layout changed from 2 columns with 24px gap to 4 columns with 8px gap causing improper content distribution",
+            "Restore proper footer layout with correct column distribution and spacing"
+        ],
+        "positive_node": "<div className=\"grid grid-cols-1 lg:grid-cols-4 gap-2 mb-32\">",
+        "playwright_selector": "footer div.grid.grid-cols-1"
+    }
+]

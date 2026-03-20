@@ -1,0 +1,72 @@
+[
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-1.png",
+        "file_path": "components/AgencyHero.jsx",
+        "text_anchor": "Z-index set to 0 causing absolute positioned element to appear layered behind other content elements",
+        "positive_node": "<div className=\"absolute bottom-12 right-12 hidden lg:block z-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-2.png",
+        "file_path": "components/AgencyHero.jsx",
+        "text_anchor": "Horizontal padding reduced from 40px to 8px causes text compression and improper spacing within button",
+        "positive_node": "<button className=\"group relative inline-flex items-center justify-center px-2 py-1 bg-white text-black font-semibold text-lg overflow-hidden transition-all duration-300 hover:pr-14\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-3.png",
+        "file_path": "components/Navbar.jsx",
+        "text_anchor": "Flexbox direction changed to column causing navbar items to stack vertically instead of horizontal row layout",
+        "positive_node": "<div className=\"max-w-7xl mx-auto flex flex-col justify-between items-end\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-4.png",
+        "file_path": "components/Navbar.jsx",
+        "text_anchor": "Text color changed to zinc-900 (dark gray) reducing contrast ratio against dark background, causing readability issues",
+        "positive_node": "<h1 className=\"text-zinc-900 text-2xl font-bold tracking-tighter\">AURA</h1>"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-5.png",
+        "file_path": "components/ServiceGrid.jsx",
+        "text_anchor": "Padding property removed (p-0) causing card content to have no internal spacing and overlap with borders",
+        "positive_node": "<div className=\"service-card group bg-black p-0 lg:p-0 flex flex-col transition-all duration-500 hover:bg-zinc-900\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-6.png",
+        "file_path": "components/ServiceGrid.jsx",
+        "text_anchor": "Opacity set to 0 makes the icon elements imperceptible regardless of interaction state",
+        "positive_node": "<div className=\"text-4xl mb-6 group-hover:scale-110 transition-transform duration-500 origin-left opacity-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-7.png",
+        "file_path": "components/PortfolioShowcase.jsx",
+        "text_anchor": "Overlay layer has z-index 0 with nested element z-index -10, causing hover content to render behind parent layer",
+        "positive_node": "<div className=\"absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center z-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-8.png",
+        "file_path": "components/PortfolioShowcase.jsx",
+        "text_anchor": "Font size changed from text-xl (20px) to text-xs (12px) reducing readability and visual hierarchy",
+        "positive_node": "<h5 className=\"text-xs font-medium tracking-tight\">{item.title}</h5>"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-9.png",
+        "file_path": "components/ClientLogos.jsx",
+        "text_anchor": "Gap property changed from 12 to 0 causes grid items to overlap and have zero spacing",
+        "positive_node": "<div className=\"grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-0 items-center opacity-40 hover:opacity-100 transition-opacity duration-700\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/Aura",
+        "image_anchor": "Aura_bug-10.png",
+        "file_path": "components/Footer.jsx",
+        "text_anchor": "Grid layout changed from 2 columns with 24px gap to 4 columns with 8px gap causing improper content distribution",
+        "positive_node": "<div className=\"grid grid-cols-1 lg:grid-cols-4 gap-2 mb-32\">"
+    }
+]
