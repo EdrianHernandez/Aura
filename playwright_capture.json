@@ -41,7 +41,7 @@
         "image_anchor": "Aura_bug-4.png",
         "text_anchors": [
             "The 'AURA' title in the top left is too dark and hard to see against the dark background",
-            "Text color changed to zinc-900 (dark gray) reducing contrast ratio against dark background, causing readability issues",
+            "Text color changed to dark gray significantly reducing contrast ratio against dark background, causing readability issues",
             "The logo text needs to be lighter so it's visible against the background"
         ],
         "positive_node": "<h1 className=\"text-zinc-900 text-2xl font-bold tracking-tighter\">AURA</h1>",
@@ -53,7 +53,7 @@
         "image_anchor": "Aura_bug-5.png",
         "text_anchors": [
             "The service cards have all their content squished against the edges with no margins",
-            "Padding property removed (p-0) causing card content to have no internal spacing and overlap with borders",
+            "Padding property removed causing card content to have no internal spacing and overlap with borders",
             "Add proper padding around the text inside each service card"
         ],
         "positive_node": "<div className=\"service-card group bg-black p-0 lg:p-0 flex flex-col transition-all duration-500 hover:bg-zinc-900\">",
@@ -89,7 +89,7 @@
         "image_anchor": "Aura_bug-8.png",
         "text_anchors": [
             "The portfolio project titles are so tiny you can barely read them",
-            "Font size changed from text-xl (20px) to text-xs (12px) reducing readability and visual hierarchy",
+            "Font size reduced from 20px to 12px significantly decreasing readability and visual hierarchy of titles",
             "The project title text needs to be larger so it's readable"
         ],
         "positive_node": "<h5 className=\"text-xs font-medium tracking-tight\">{item.title}</h5>",
