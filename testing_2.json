@@ -24,14 +24,14 @@
         "github_repo": "https://github.com/EdrianHernandez/Aura",
         "image_anchor": "Aura_bug-4.png",
         "file_path": "components/Navbar.jsx",
-        "text_anchor": "Text color changed to zinc-900 (dark gray) reducing contrast ratio against dark background, causing readability issues",
+        "text_anchor": "Text color changed to dark gray significantly reducing contrast ratio against dark background, causing readability issues",
         "positive_node": "<h1 className=\"text-zinc-900 text-2xl font-bold tracking-tighter\">AURA</h1>"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/Aura",
         "image_anchor": "Aura_bug-5.png",
         "file_path": "components/ServiceGrid.jsx",
-        "text_anchor": "Padding property removed (p-0) causing card content to have no internal spacing and overlap with borders",
+        "text_anchor": "Padding property removed causing card content to have no internal spacing and overlap with borders",
         "positive_node": "<div className=\"service-card group bg-black p-0 lg:p-0 flex flex-col transition-all duration-500 hover:bg-zinc-900\">"
     },
     {
@@ -52,7 +52,7 @@
         "github_repo": "https://github.com/EdrianHernandez/Aura",
         "image_anchor": "Aura_bug-8.png",
         "file_path": "components/PortfolioShowcase.jsx",
-        "text_anchor": "Font size changed from text-xl (20px) to text-xs (12px) reducing readability and visual hierarchy",
+        "text_anchor": "Font size reduced from 20px to 12px significantly decreasing readability and visual hierarchy of titles",
         "positive_node": "<h5 className=\"text-xs font-medium tracking-tight\">{item.title}</h5>"
     },
     {
