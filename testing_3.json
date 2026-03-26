@@ -10,28 +10,28 @@
         "github_repo": "https://github.com/EdrianHernandez/Aura",
         "image_anchor": "Aura_bug-2.png",
         "file_path": "components/AgencyHero.jsx",
-        "text_anchor": "Make the button have more breathing room around the text inside it",
+        "text_anchor": "The button has insufficient horizontal padding causing the text to be cramped and squeezed",
         "positive_node": "<button className=\"group relative inline-flex items-center justify-center px-2 py-1 bg-white text-black font-semibold text-lg overflow-hidden transition-all duration-300 hover:pr-14\">"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/Aura",
         "image_anchor": "Aura_bug-3.png",
         "file_path": "components/Navbar.jsx",
-        "text_anchor": "Fix the navigation layout so the menu links appear in a horizontal line next to the logo",
+        "text_anchor": "The navbar menu items are stacked vertically instead of appearing in a horizontal layout",
         "positive_node": "<div className=\"max-w-7xl mx-auto flex flex-col justify-between items-end\">"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/Aura",
         "image_anchor": "Aura_bug-4.png",
         "file_path": "components/Navbar.jsx",
-        "text_anchor": "The logo text needs to be lighter so it's visible against the background",
+        "text_anchor": "The logo uses a dark text color with insufficient contrast against the dark background making it difficult to read",
         "positive_node": "<h1 className=\"text-zinc-900 text-2xl font-bold tracking-tighter\">AURA</h1>"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/Aura",
         "image_anchor": "Aura_bug-5.png",
         "file_path": "components/ServiceGrid.jsx",
-        "text_anchor": "Add proper padding around the text inside each service card",
+        "text_anchor": "The service card has no internal padding causing content to be flush against the borders",
         "positive_node": "<div className=\"service-card group bg-black p-0 lg:p-0 flex flex-col transition-all duration-500 hover:bg-zinc-900\">"
     },
     {
@@ -45,28 +45,28 @@
         "github_repo": "https://github.com/EdrianHernandez/Aura",
         "image_anchor": "Aura_bug-7.png",
         "file_path": "components/PortfolioShowcase.jsx",
-        "text_anchor": "The case study button should appear on top of the image overlay when hovering",
+        "text_anchor": "The overlay layer has a z-index of 0 causing the hover content to render behind the image instead of on top",
         "positive_node": "<div className=\"absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center z-0\">"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/Aura",
         "image_anchor": "Aura_bug-8.png",
         "file_path": "components/PortfolioShowcase.jsx",
-        "text_anchor": "The project title text needs to be larger so it's readable",
+        "text_anchor": "The project title uses an extremely small font size reducing readability and visual hierarchy",
         "positive_node": "<h5 className=\"text-xs font-medium tracking-tight\">{item.title}</h5>"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/Aura",
         "image_anchor": "Aura_bug-9.png",
         "file_path": "components/ClientLogos.jsx",
-        "text_anchor": "Add space between the client logo items so they don't touch each other",
+        "text_anchor": "The client logos have no gap between them causing them to be tightly packed and overlapping",
         "positive_node": "<div className=\"grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-0 items-center opacity-40 hover:opacity-100 transition-opacity duration-700\">"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/Aura",
         "image_anchor": "Aura_bug-10.png",
         "file_path": "components/Footer.jsx",
-        "text_anchor": "Restore proper footer layout with correct column distribution and spacing",
+        "text_anchor": "The footer has too many columns with insufficient gap spacing between content causing improper layout",
         "positive_node": "<div className=\"grid grid-cols-1 lg:grid-cols-4 gap-2 mb-32\">"
     }
 ]
