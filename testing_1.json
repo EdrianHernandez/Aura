@@ -11,7 +11,7 @@
         "image_anchor": "Aura_bug-2.png",
         "file_path": "components/AgencyHero.jsx",
         "text_anchor": "The 'View Work' button text is getting squished and cramped inside the button",
-        "positive_node": "<button className=\"group relative inline-flex items-center justify-center px-2 py-1 bg-white text-black font-semibold text-lg overflow-hidden transition-all duration-300 hover:pr-14\">"
+        "positive_node": "<button className=\"group relative inline-flex items-center justify-center px-2 py-1 bg-white text-black font-semibold text-lg overflow-hidden transition-all duration-300 hover:pr-14\" onClick={() => document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' })}>"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/Aura",
@@ -25,14 +25,14 @@
         "image_anchor": "Aura_bug-4.png",
         "file_path": "components/Navbar.jsx",
         "text_anchor": "The 'AURA' title in the top left is too dark and hard to see against the dark background",
-        "positive_node": "<h1 className=\"text-zinc-900 text-2xl font-bold tracking-tighter\">AURA</h1>"
+        "positive_node": "<h1 className=\"text-zinc-900 text-2xl font-bold tracking-tighter\">"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/Aura",
         "image_anchor": "Aura_bug-5.png",
         "file_path": "components/ServiceGrid.jsx",
         "text_anchor": "The service cards have all their content squished against the edges with no margins",
-        "positive_node": "<div className=\"service-card group bg-black p-0 lg:p-0 flex flex-col transition-all duration-500 hover:bg-zinc-900\">"
+        "positive_node": "<div key={service.id} className=\"service-card group bg-black p-0 lg:p-0 flex flex-col transition-all duration-500 hover:bg-zinc-900\">"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/Aura",
@@ -53,7 +53,7 @@
         "image_anchor": "Aura_bug-8.png",
         "file_path": "components/PortfolioShowcase.jsx",
         "text_anchor": "The portfolio project titles are so tiny you can barely read them",
-        "positive_node": "<h5 className=\"text-xs font-medium tracking-tight\">{item.title}</h5>"
+        "positive_node": "<h5 className=\"text-xs font-medium tracking-tight\">"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/Aura",
